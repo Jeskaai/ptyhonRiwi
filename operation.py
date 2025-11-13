@@ -10,3 +10,4 @@ def multi(a,b):
 
 def divs(a,b):
   return a/b
+

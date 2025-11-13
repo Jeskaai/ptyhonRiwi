@@ -45,5 +45,36 @@ else:
    print("This option is not valid.  ")
 
 
+#E
+
+print("========QUALIFICATION========")
+
+note = float(input("Enter your class grade (1.0 / 5.0): "))
+
+if 1.0 <= note <= 2.9:
+   print("Fail")
+elif 3.0 <= note <= 3.9:
+   print("Pass")
+elif 4.0 <= note <= 5.0:
+   print("Excellent")
+else:
+   print("Invalid number")
+
+
+#F
+
+print("=========FIND THE LARGEST AND SMALLEST NUMBERS============")
+
+
+l1 = int(input("Enter the first number: "))
+l2 = int(input("Enter the second numer: "))
+l3 = int(input("Enter the third number: "))
+
+
+largest = max(l1,l2,l3)
+smallest = min(l1,l2,l3)
+
+print("\n--- Result ---")
+print(f"The largest is {largest} the smallest number is {smallest}")
 
 
